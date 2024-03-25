@@ -1,11 +1,14 @@
-import Image from "next/image";
+// pages/about.js
 
-export default function About() {
+import React from 'react';
+
+const About = () => {
   return (
-        <div>
-            <p>
-              Hello World, this is about page
-            </p>
-        </div>
+    <div className=" bg-regal-blue h-screen flex items-center justify-center">
+      <h1 className="text-white text-4xl">About Page</h1>
+      {/* Add more content here */}
+    </div>
   );
-}
+};
+
+export default About;
